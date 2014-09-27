@@ -7,6 +7,7 @@
 //
 
 #import "RedViewController.h"
+#import "ColorsViewController.h"
 
 @interface RedViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
+    self.presentedLabel.text = [NSString stringWithFormat:@"Presented %d times", self.viewCalls];
 }
 
 - (IBAction)goBackHome:(id)sender {
@@ -27,7 +29,7 @@
 {
     NSLog(@"Get in here Red");
     NSLog(@"The presented text label is: %@",self.presentedLabel.text);
-    self.presentedLabel.text = [NSString stringWithFormat:@"Presented %d times", times];
+    //self.presentedLabel.text = [NSString stringWithFormat:@"Presented %d times", times];
 }
 
 

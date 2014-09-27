@@ -16,4 +16,9 @@
 @property (strong, nonatomic) IBOutlet UILabel *randomLabel;
 -(void)mefSetLabelValues:(NSMutableArray *)timesSelectedColors;
 - (IBAction)resetValueLabels:(id)sender;
+@property int redCalls;
+@property int greenCalls;
+@property int blueCalls;
+@property int customCalls;
+@property int randomCalls;
 @end

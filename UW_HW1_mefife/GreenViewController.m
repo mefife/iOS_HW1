@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
+    self.presentedLabel.text = [NSString stringWithFormat:@"Presented %d times", self.viewCalls];
 }
 
 - (IBAction)goBackHome:(id)sender {

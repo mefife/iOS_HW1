@@ -21,16 +21,32 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    ColorsViewController *colorsViewController = [[ColorsViewController alloc] init];
-    DataViewController *dataViewController = [[DataViewController alloc] init];
-    [tabBarController setViewControllers:@[colorsViewController, dataViewController] animated:YES];
+    self.colorsViewController = [[ColorsViewController alloc] init];
+    self.dataViewController = [[DataViewController alloc] init];
+    
+    //ColorsViewController *colorsViewController = [[ColorsViewController alloc] init];
+    //DataViewController *dataViewController = [[DataViewController alloc] init];
+    [tabBarController setViewControllers:@[self.colorsViewController, self.dataViewController] animated:YES];
     self.window.rootViewController = tabBarController;
+    tabBarController.delegate = self;
     
     
-    
+    NSLog(@"Application changed");
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+
+-(void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+{
+    // Update Counts on data tab
+    self.dataViewController.redLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.redCalls];
+    self.dataViewController.greenLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.greenCalls];
+    self.dataViewController.blueLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.blueCalls];
+    self.dataViewController.customLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.customCalls];
+    self.dataViewController.randomLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.randomCalls];
+    NSLog(@"Tab bar selection changed");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

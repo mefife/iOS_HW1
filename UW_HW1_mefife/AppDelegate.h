@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class ColorsViewController;
+@class DataViewController;
 
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate, UITabBarDelegate>
 @property (strong, nonatomic) UIWindow *window;
-
-
+@property ColorsViewController * colorsViewController;
+@property DataViewController * dataViewController;
 @end
 

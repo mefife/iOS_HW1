@@ -11,4 +11,5 @@
 @interface BlueViewController : UIViewController
 -(void)setLabel:(int)times;
 @property (strong, nonatomic) IBOutlet UILabel *presentedLabel;
+@property int viewCalls;
 @end

@@ -8,6 +8,7 @@
 
 #import "DataViewController.h"
 #import "ColorsViewController.h"
+#import "AppDelegate.h"
 
 @interface DataViewController ()
 
@@ -28,11 +29,23 @@
 
 
 - (void)viewDidLoad {
+    self.redLabel.text = [NSString stringWithFormat:@"%d", self.redCalls];
+    self.greenLabel.text = [NSString stringWithFormat:@"%d", self.greenCalls];
+    self.blueLabel.text = [NSString stringWithFormat:@"%d", self.blueCalls];
+    self.customLabel.text = [NSString stringWithFormat:@"%d", self.customCalls];
+    self.randomLabel.text = [NSString stringWithFormat:@"%d", self.randomCalls];
+    //NSLog(@"Data view did load");
 
 }
 
 - (IBAction)resetValueLabels:(id)sender {
-    ////
+    self.redLabel.text = @"0";
+    self.greenLabel.text = @"0";
+    self.blueLabel.text = @"0";
+    self.customLabel.text = @"0";
+    self.randomLabel.text = @"0";
+    // Need to reset overall count now and done!!!
+    
 }
 
 -(void)mefSetLabelValues:(NSMutableArray *)timesSelectedColors

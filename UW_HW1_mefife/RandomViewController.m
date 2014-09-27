@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor randomRGBColor];
+    self.presentedLabel.text = [NSString stringWithFormat:@"Presented %d times", self.viewCalls];
 }
 
 

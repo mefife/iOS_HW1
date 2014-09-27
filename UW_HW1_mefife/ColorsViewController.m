@@ -76,7 +76,8 @@
     self.greenCalls++;
     GreenViewController *gvc = [[GreenViewController alloc] init];
     // Set presented String Value
-    [gvc setLabel:self.greenCalls];
+    gvc.viewCalls = self.greenCalls;
+    //[gvc setLabel:self.greenCalls];
     [self presentViewController:gvc animated:YES completion:nil];
 }
 
@@ -85,7 +86,8 @@
     self.redCalls++;
     RedViewController *rvc = [[RedViewController alloc] init];
     // Set presented String Value
-    [rvc setLabel:self.redCalls];
+    rvc.viewCalls = self.redCalls;
+    //[rvc setLabel:self.redCalls];
     [self presentViewController:rvc animated:YES completion:nil];
 }
 
@@ -93,7 +95,8 @@
     self.blueCalls++;
     BlueViewController *bvc = [[ BlueViewController alloc] init];
     // Set presented String Value
-    [bvc setLabel:self.blueCalls];
+    bvc.viewCalls = self.blueCalls;
+    //[bvc setLabel:self.blueCalls];
     [self presentViewController:bvc animated:YES completion:nil];
 }
 
@@ -112,7 +115,8 @@
     self.randomCalls++;
     RandomViewController *ranvc = [[RandomViewController alloc] init];
     // Set presented String Value
-    [ranvc setLabel:self.randomCalls];
+    ranvc.viewCalls = self.randomCalls;
+    //[ranvc setLabel:self.randomCalls];
     [self presentViewController:ranvc animated:YES completion:nil];
 }
 
