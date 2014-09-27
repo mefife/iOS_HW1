@@ -7,10 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C42135E819D4C9CF000D1448 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42135E619D4C9CF000D1448 /* DataViewController.m */; };
+		C42135E919D4C9CF000D1448 /* DataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42135E719D4C9CF000D1448 /* DataViewController.xib */; };
+		C42135EB19D4C9FA000D1448 /* ColorsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42135EA19D4C9FA000D1448 /* ColorsViewController.xib */; };
+		C42135ED19D4CFBC000D1448 /* colors.png in Resources */ = {isa = PBXBuildFile; fileRef = C42135EC19D4CFBC000D1448 /* colors.png */; };
+		C42135EF19D4CFC3000D1448 /* data.png in Resources */ = {isa = PBXBuildFile; fileRef = C42135EE19D4CFC3000D1448 /* data.png */; };
+		C42135F219D4D94F000D1448 /* UIColor+UWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C42135F119D4D94F000D1448 /* UIColor+UWExtensions.m */; };
+		C42135F719D4D9B7000D1448 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42135F519D4D9B7000D1448 /* RedViewController.m */; };
+		C42135F819D4D9B7000D1448 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42135F619D4D9B7000D1448 /* RedViewController.xib */; };
+		C42135FC19D4D9CC000D1448 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42135FA19D4D9CC000D1448 /* GreenViewController.m */; };
+		C42135FD19D4D9CC000D1448 /* GreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42135FB19D4D9CC000D1448 /* GreenViewController.xib */; };
+		C421360119D4D9D8000D1448 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42135FF19D4D9D8000D1448 /* BlueViewController.m */; };
+		C421360219D4D9D8000D1448 /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C421360019D4D9D8000D1448 /* BlueViewController.xib */; };
+		C421360619D4D9E7000D1448 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C421360419D4D9E7000D1448 /* CustomViewController.m */; };
+		C421360719D4D9E7000D1448 /* CustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C421360519D4D9E7000D1448 /* CustomViewController.xib */; };
+		C421360B19D4D9FF000D1448 /* RandomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C421360919D4D9FF000D1448 /* RandomViewController.m */; };
+		C421360C19D4D9FF000D1448 /* RandomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C421360A19D4D9FF000D1448 /* RandomViewController.xib */; };
 		C4C9D77D19D3CFC100923551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D77C19D3CFC100923551 /* main.m */; };
 		C4C9D78019D3CFC100923551 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D77F19D3CFC100923551 /* AppDelegate.m */; };
-		C4C9D78319D3CFC100923551 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D78219D3CFC100923551 /* ViewController.m */; };
-		C4C9D78619D3CFC100923551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C9D78419D3CFC100923551 /* Main.storyboard */; };
+		C4C9D78319D3CFC100923551 /* ColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D78219D3CFC100923551 /* ColorsViewController.m */; };
 		C4C9D78819D3CFC100923551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C9D78719D3CFC100923551 /* Images.xcassets */; };
 		C4C9D78B19D3CFC100923551 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C9D78919D3CFC100923551 /* LaunchScreen.xib */; };
 		C4C9D79719D3CFC100923551 /* UW_HW1_mefifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C9D79619D3CFC100923551 /* UW_HW1_mefifeTests.m */; };
@@ -27,14 +42,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C42135E519D4C9CF000D1448 /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		C42135E619D4C9CF000D1448 /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		C42135E719D4C9CF000D1448 /* DataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataViewController.xib; sourceTree = "<group>"; };
+		C42135EA19D4C9FA000D1448 /* ColorsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorsViewController.xib; sourceTree = "<group>"; };
+		C42135EC19D4CFBC000D1448 /* colors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colors.png; sourceTree = "<group>"; };
+		C42135EE19D4CFC3000D1448 /* data.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = data.png; sourceTree = "<group>"; };
+		C42135F019D4D949000D1448 /* UIColor+UWExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+UWExtensions.h"; sourceTree = "<group>"; };
+		C42135F119D4D94F000D1448 /* UIColor+UWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UWExtensions.m"; sourceTree = "<group>"; };
+		C42135F419D4D9B7000D1448 /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		C42135F519D4D9B7000D1448 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		C42135F619D4D9B7000D1448 /* RedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
+		C42135F919D4D9CC000D1448 /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
+		C42135FA19D4D9CC000D1448 /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
+		C42135FB19D4D9CC000D1448 /* GreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenViewController.xib; sourceTree = "<group>"; };
+		C42135FE19D4D9D8000D1448 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		C42135FF19D4D9D8000D1448 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		C421360019D4D9D8000D1448 /* BlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
+		C421360319D4D9E7000D1448 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		C421360419D4D9E7000D1448 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		C421360519D4D9E7000D1448 /* CustomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomViewController.xib; sourceTree = "<group>"; };
+		C421360819D4D9FF000D1448 /* RandomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomViewController.h; sourceTree = "<group>"; };
+		C421360919D4D9FF000D1448 /* RandomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomViewController.m; sourceTree = "<group>"; };
+		C421360A19D4D9FF000D1448 /* RandomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RandomViewController.xib; sourceTree = "<group>"; };
 		C4C9D77719D3CFC100923551 /* UW_HW1_mefife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UW_HW1_mefife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C9D77B19D3CFC100923551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4C9D77C19D3CFC100923551 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4C9D77E19D3CFC100923551 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4C9D77F19D3CFC100923551 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4C9D78119D3CFC100923551 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C4C9D78219D3CFC100923551 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C4C9D78519D3CFC100923551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4C9D78119D3CFC100923551 /* ColorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsViewController.h; sourceTree = "<group>"; };
+		C4C9D78219D3CFC100923551 /* ColorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsViewController.m; sourceTree = "<group>"; };
 		C4C9D78719D3CFC100923551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C4C9D78A19D3CFC100923551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C4C9D79019D3CFC100923551 /* UW_HW1_mefifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UW_HW1_mefifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +97,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C42135F319D4D96D000D1448 /* Tab View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4C9D78119D3CFC100923551 /* ColorsViewController.h */,
+				C4C9D78219D3CFC100923551 /* ColorsViewController.m */,
+				C42135EA19D4C9FA000D1448 /* ColorsViewController.xib */,
+				C42135E519D4C9CF000D1448 /* DataViewController.h */,
+				C42135E619D4C9CF000D1448 /* DataViewController.m */,
+				C42135E719D4C9CF000D1448 /* DataViewController.xib */,
+			);
+			name = "Tab View Controllers";
+			sourceTree = "<group>";
+		};
+		C421360D19D4DA03000D1448 /* Random View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C421360819D4D9FF000D1448 /* RandomViewController.h */,
+				C421360919D4D9FF000D1448 /* RandomViewController.m */,
+				C421360A19D4D9FF000D1448 /* RandomViewController.xib */,
+			);
+			name = "Random View Controller";
+			sourceTree = "<group>";
+		};
+		C421360E19D4DA12000D1448 /* Custom View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C421360319D4D9E7000D1448 /* CustomViewController.h */,
+				C421360419D4D9E7000D1448 /* CustomViewController.m */,
+				C421360519D4D9E7000D1448 /* CustomViewController.xib */,
+			);
+			name = "Custom View Controller";
+			sourceTree = "<group>";
+		};
+		C421360F19D4DA1B000D1448 /* Blue View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C42135FE19D4D9D8000D1448 /* BlueViewController.h */,
+				C42135FF19D4D9D8000D1448 /* BlueViewController.m */,
+				C421360019D4D9D8000D1448 /* BlueViewController.xib */,
+			);
+			name = "Blue View Controller";
+			sourceTree = "<group>";
+		};
+		C421361019D4DA25000D1448 /* Green View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C42135F919D4D9CC000D1448 /* GreenViewController.h */,
+				C42135FA19D4D9CC000D1448 /* GreenViewController.m */,
+				C42135FB19D4D9CC000D1448 /* GreenViewController.xib */,
+			);
+			name = "Green View Controller";
+			sourceTree = "<group>";
+		};
+		C421361119D4DA2F000D1448 /* Red View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C42135F419D4D9B7000D1448 /* RedViewController.h */,
+				C42135F519D4D9B7000D1448 /* RedViewController.m */,
+				C42135F619D4D9B7000D1448 /* RedViewController.xib */,
+			);
+			name = "Red View Controller";
+			sourceTree = "<group>";
+		};
 		C4C9D76E19D3CFC100923551 = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +181,18 @@
 		C4C9D77919D3CFC100923551 /* UW_HW1_mefife */ = {
 			isa = PBXGroup;
 			children = (
+				C42135F019D4D949000D1448 /* UIColor+UWExtensions.h */,
+				C42135F119D4D94F000D1448 /* UIColor+UWExtensions.m */,
+				C42135EC19D4CFBC000D1448 /* colors.png */,
+				C42135EE19D4CFC3000D1448 /* data.png */,
 				C4C9D77E19D3CFC100923551 /* AppDelegate.h */,
 				C4C9D77F19D3CFC100923551 /* AppDelegate.m */,
-				C4C9D78119D3CFC100923551 /* ViewController.h */,
-				C4C9D78219D3CFC100923551 /* ViewController.m */,
-				C4C9D78419D3CFC100923551 /* Main.storyboard */,
+				C421360D19D4DA03000D1448 /* Random View Controller */,
+				C421360E19D4DA12000D1448 /* Custom View Controller */,
+				C421360F19D4DA1B000D1448 /* Blue View Controller */,
+				C421361019D4DA25000D1448 /* Green View Controller */,
+				C421361119D4DA2F000D1448 /* Red View Controller */,
+				C42135F319D4D96D000D1448 /* Tab View Controllers */,
 				C4C9D78719D3CFC100923551 /* Images.xcassets */,
 				C4C9D78919D3CFC100923551 /* LaunchScreen.xib */,
 				C4C9D77A19D3CFC100923551 /* Supporting Files */,
@@ -199,9 +306,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4C9D78619D3CFC100923551 /* Main.storyboard in Resources */,
+				C42135FD19D4D9CC000D1448 /* GreenViewController.xib in Resources */,
+				C421360719D4D9E7000D1448 /* CustomViewController.xib in Resources */,
+				C42135ED19D4CFBC000D1448 /* colors.png in Resources */,
+				C421360C19D4D9FF000D1448 /* RandomViewController.xib in Resources */,
 				C4C9D78B19D3CFC100923551 /* LaunchScreen.xib in Resources */,
+				C42135E919D4C9CF000D1448 /* DataViewController.xib in Resources */,
+				C42135F819D4D9B7000D1448 /* RedViewController.xib in Resources */,
+				C42135EB19D4C9FA000D1448 /* ColorsViewController.xib in Resources */,
+				C421360219D4D9D8000D1448 /* BlueViewController.xib in Resources */,
 				C4C9D78819D3CFC100923551 /* Images.xcassets in Resources */,
+				C42135EF19D4CFC3000D1448 /* data.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +334,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4C9D78319D3CFC100923551 /* ViewController.m in Sources */,
+				C42135F219D4D94F000D1448 /* UIColor+UWExtensions.m in Sources */,
+				C421360B19D4D9FF000D1448 /* RandomViewController.m in Sources */,
+				C42135E819D4C9CF000D1448 /* DataViewController.m in Sources */,
+				C4C9D78319D3CFC100923551 /* ColorsViewController.m in Sources */,
 				C4C9D78019D3CFC100923551 /* AppDelegate.m in Sources */,
+				C421360619D4D9E7000D1448 /* CustomViewController.m in Sources */,
+				C42135F719D4D9B7000D1448 /* RedViewController.m in Sources */,
+				C42135FC19D4D9CC000D1448 /* GreenViewController.m in Sources */,
+				C421360119D4D9D8000D1448 /* BlueViewController.m in Sources */,
 				C4C9D77D19D3CFC100923551 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +366,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C4C9D78419D3CFC100923551 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4C9D78519D3CFC100923551 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C4C9D78919D3CFC100923551 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,6 +528,7 @@
 				C4C9D79C19D3CFC100923551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4C9D79D19D3CFC100923551 /* Build configuration list for PBXNativeTarget "UW_HW1_mefifeTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +537,7 @@
 				C4C9D79F19D3CFC100923551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
