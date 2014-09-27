@@ -35,6 +35,7 @@
     self.customLabel.text = [NSString stringWithFormat:@"%d", self.customCalls];
     self.randomLabel.text = [NSString stringWithFormat:@"%d", self.randomCalls];
     //NSLog(@"Data view did load");
+    self.mefReset = NO;
 
 }
 
@@ -45,7 +46,7 @@
     self.customLabel.text = @"0";
     self.randomLabel.text = @"0";
     // Need to reset overall count now and done!!!
-    
+    self.mefReset = YES;
 }
 
 -(void)mefSetLabelValues:(NSMutableArray *)timesSelectedColors

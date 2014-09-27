@@ -23,13 +23,14 @@
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     self.colorsViewController = [[ColorsViewController alloc] init];
     self.dataViewController = [[DataViewController alloc] init];
+    // set tags to figure out which view controller was selected
+    
     
     //ColorsViewController *colorsViewController = [[ColorsViewController alloc] init];
     //DataViewController *dataViewController = [[DataViewController alloc] init];
     [tabBarController setViewControllers:@[self.colorsViewController, self.dataViewController] animated:YES];
     self.window.rootViewController = tabBarController;
     tabBarController.delegate = self;
-    
     
     NSLog(@"Application changed");
     [self.window makeKeyAndVisible];
@@ -40,13 +41,22 @@
 
 -(void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
 {
-    // Update Counts on data tab
-    self.dataViewController.redLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.redCalls];
-    self.dataViewController.greenLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.greenCalls];
-    self.dataViewController.blueLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.blueCalls];
-    self.dataViewController.customLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.customCalls];
-    self.dataViewController.randomLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.randomCalls];
-    NSLog(@"Tab bar selection changed");
+    if (tabBarController.selectedIndex == 0 && self.dataViewController.mefReset == YES) {
+        self.colorsViewController.redCalls = 0;
+        self.colorsViewController.greenCalls = 0;
+        self.colorsViewController.blueCalls = 0;
+        self.colorsViewController.customCalls = 0;
+        self.colorsViewController.randomCalls = 0;
+        self.dataViewController.mefReset = NO;
+        
+    }else if (tabBarController.selectedIndex == 1) {
+        // Update Counts on data tab
+        self.dataViewController.redLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.redCalls];
+        self.dataViewController.greenLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.greenCalls];
+        self.dataViewController.blueLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.blueCalls];
+        self.dataViewController.customLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.customCalls];
+        self.dataViewController.randomLabel.text = [NSString stringWithFormat:@"%d", self.colorsViewController.randomCalls];
+              }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

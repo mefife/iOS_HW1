@@ -21,4 +21,5 @@
 @property int blueCalls;
 @property int customCalls;
 @property int randomCalls;
+@property BOOL mefReset;
 @end
